@@ -21,7 +21,6 @@
         .game-container {
              /* margin: 0 auto; 
              height: 50rem;  */
-
             display: grid;
             margin: 0 auto;
             grid-template-rows: 3rem 2rem 30rem 4rem 2rem;
@@ -58,6 +57,11 @@
             /* align-items: center; */
             background-size: cover;
             background-position: center center;
+
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
           
         }
 
