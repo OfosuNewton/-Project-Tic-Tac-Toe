@@ -6,7 +6,14 @@
             width: 100%;    
             align-items: center;
             background-size: cover;
-            background-position: center center; 
+            background-position: center center;
+            
+            /* Alignments */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            margin: 0;
           
            
 
@@ -47,7 +54,7 @@
             /* border: 2px black solid; */
             row-gap: px;
             column-gap: px;
-            background-image: url('img/devil.svg');
+            background-image: url('img/Devil.svg');
             /* align-items: center; */
             background-size: cover;
             background-position: center center;
