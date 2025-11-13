@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+<div class="game-container">
+    <h1 class="game-header">Tic-Tac-Toe</h1>
+    <div class="display-status"></div>
+    <div class="game-grid-box">
+        <dialog data-modal>
+            <form id="dialog-form" action="" method="dialog">
+                <h2 class="welcome-txt">Welcome to Tic Tac Toe</h2>
+                <p class="para-msg">Please fill in your name to start the game
+                    The game require two players. The first player to have 3 consecutive numbers in a row, column or diagonal wins
+                </p>
+                <div class="input-field">
+                    <input type="text" id="player1" placeholder="player1">
+                    <input type="text" id="player2" placeholder="player2">
+                </div>
+                <div id="dialog-opt-btn">
+                    <button  formethod="dialog" class="close-modal">Quit game</button>
+                    <button  id="perform-click-operation">Let's go</button>
+                </div>
+            </form>
+        </dialog>
+    </div>
+    <button class="start-btn" data-open-modal> Start Game </button>
+    <!-- <button class="reset-btn"> Reset Game </button> -->
+</div>
+
+</body>
+</html>
